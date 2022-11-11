@@ -16,7 +16,7 @@ public class Animal {
         }else if(intensity.equalsIgnoreCase("low")){
             System.out.println("Roar");
         }else{
-            return;
+            System.out.println("Cannont reproduce properly"); 
         }
     }
 }
